@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="ISO-8859-1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stevan Zecevic</title>
+
+    <link rel="icon" href="./images/Logo.svg" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link 
+      rel="stylesheet" 
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_isjzZWgFBnID7fa98dmes");
+      })();
+    </script>
+  </head>
+  <body>
+
+    <div class="mainPadding active" id="home">
+      <div class="container home">
+        <nav>
+          <li class="logo">
+            <a href="#home">
+              <img src="./images/Logo.svg" alt="logo" />
+            </a>
+          </li>
+          <ul class="desktop-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#contact-me">Contact me</a></li>
+          </ul>
+          <ul class="mobile-menu">
+            <div class="hamburger-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <nav class="side-menu">
+              <li>
+                <span>&times;</span>
+              </li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#about-me">About me</a></li>
+              <li><a href="#contact-me">Contact me</a></li>
+            </nav>
+          </ul>
+        </nav>
+  
+        <div class="hero-section">
+          <div class="headers">
+            <h1>Web Development</h1>
+            <h2>UI/UX Design</h2>
+            <div class="buttons">
+              <button id="viewProjects">View Projects</button>
+              <button id="aboutMeBtn">About me</button>
+            </div>
+          </div>
+  
+          <div class="tech-container">
+            <div class="techs" id="techs">
+              <a href="https://www.mongodb.com/" class="mongodb" target="_blank">
+                <img src="./images/mongodb.png" alt="mongodb logo"/>
+              </a>
+              <a href="https://reactjs.org/" class="react" target="_blank">
+                <img src="./images/react.png" alt="react logo"/>
+              </a>
+              <a href="https://nodejs.org/en/" class="nodejs" target="_blank">
+                <img src="./images/nodejs.png" alt="nodejs logo"/>
+              </a>
+              <a href="https://sass-lang.com/" class="sass" target="_blank">
+                <img src="./images/sass.png" alt="sass logo"/>
+              </a>
+              <a href="https://www.w3schools.com/css/" class="css" target="_blank">
+                <img src="./images/css.png" alt="css logo"/>
+              </a>
+              <a href="https://www.w3schools.com/html/" class="html" target="_blank">
+                <img src="./images/html.png" alt="html logo"/>
+              </a>
+              <a href="https://www.w3schools.com/js/DEFAULT.asp" class="js" target="_blank">
+                <img src="./images/js.png" alt="js logo"/>
+              </a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="triangle-animation">
+          <div class="down-button">
+            <span class="green-circle"></span>
+            <span class="green-triangle"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mainPadding" id="projects">
+      <div class="container projects">
+        <nav>
+          <li class="logo">
+            <a href="#home">
+              <img src="./images/Logo.svg" alt="logo" />
+            </a>
+          </li>
+          <ul class="desktop-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#contact-me">Contact me</a></li>
+          </ul>
+          <ul class="mobile-menu">
+            <div class="hamburger-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <nav class="side-menu" style="height: 1900px">
+              <li>
+                <span>&times;</span>
+              </li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#about-me">About me</a></li>
+              <li><a href="#contact-me">Contact me</a></li>
+            </nav>
+          </ul>
+        </nav>
+  
+        <h1 class="section-title">Projects</h1>
+  
+        <div class="all-projects">
+          <div class="project-no1">
+            <div class="project-img">
+              <img class="project-no1-img" src="https://img.freepik.com/free-vector/light-blue-project-management-concept_23-2147782704.jpg?size=338&ext=jpg" alt="project-no1">
+              <a href="#"> <img class="github-logo" src="./images/github-logo.png" alt="project-no1-link" /></a>
+            </div>
+            <div class="project-text">
+              <p class="project-description">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              </p>
+              <div class="project-techs">
+                <span>Made in:</span>
+                <img src="./images/react.png" alt="react logo" srcset="" />
+                <img src="./images/sass.png" alt="sass logo" srcset="" />
+                <img src="./images/nodejs.png" alt="nodejs logo" srcset="" />
+                <img src="./images/mongodb.png" alt="mongodb logo" srcset="" />
+              </div>
+            </div>
+          </div>
+  
+          <div class="project-no2">
+            <div class="project-text">
+              <p class="project-description">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              </p>
+              <div class="project-techs">
+                <span>Made in:</span>
+                <img src="./images/react.png" alt="react logo" srcset="" />
+                <img src="./images/sass.png" alt="sass logo" srcset="" />
+                <img src="./images/nodejs.png" alt="nodejs logo" srcset="" />
+                <img src="./images/mongodb.png" alt="mongodb logo" srcset="" />
+              </div>
+            </div>
+            <div class="project-img">
+              <img class="project-no2-img" src="https://img.freepik.com/free-vector/light-blue-project-management-concept_23-2147782704.jpg?size=338&ext=jpg" alt="project-no2">
+              <a href="#"> 
+                <img class="github-logo" src="./images/github-logo.png" alt="project-no1-link" />
+              </a>
+            </div>
+          </div>
+  
+          <div class="project-no1">
+            <div class="project-img">
+              <img class="project-no1-img" src="https://img.freepik.com/free-vector/light-blue-project-management-concept_23-2147782704.jpg?size=338&ext=jpg" alt="project-no1">
+              <a href="#"> <img class="github-logo" src="./images/github-logo.png" alt="project-no1-link" /></a>
+            </div>
+            <div class="project-text">
+              <p class="project-description">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              </p>
+              <div class="project-techs">
+                <span>Made in:</span>
+                <img src="./images/react.png" alt="react logo" srcset="" />
+                <img src="./images/sass.png" alt="sass logo" srcset="" />
+                <img src="./images/nodejs.png" alt="nodejs logo" srcset="" />
+                <img src="./images/mongodb.png" alt="mongodb logo" srcset="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="triangle-animation" >
+          <div class="down-button">
+            <span class="green-circle"></span>
+            <span class="green-triangle"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div class="mainPadding" id="about-me">
+      <div class="container about-me">
+        <nav>
+          <li class="logo">
+            <a href="#home">
+              <img src="./images/Logo.svg" alt="logo" />
+            </a>
+          </li>
+          <ul class="desktop-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#contact-me">Contact me</a></li>
+          </ul>
+          <ul class="mobile-menu">
+            <div class="hamburger-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <nav class="side-menu">
+              <li>
+                <span>&times;</span>
+              </li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#about-me">About me</a></li>
+              <li><a href="#contact-me">Contact me</a></li>
+            </nav>
+          </ul>
+        </nav>
+  
+        <h1 class="section-title">About Me</h1>
+  
+        <div class="aboutMe-content">
+          <div class="aboutMe-links">
+            <a href="https://github.com/stevan-zecevic" target="_blank">
+              <img style="width: 115px" src="./images/github-logo-white.png" alt="github-logo" />
+            </a>
+            <a href="https://www.facebook.com/stevan.zecevic.3/" target="_blank">
+              <img src="./images/facebook-logo.png" alt="facebook-logo" />
+            </a>
+            <a href="#" target="_blank">
+              <img src="./images/linkedin-logo.png" alt="linkedin-logo" />
+            </a>
+          </div>
+          <div class="aboutMe-text">
+            Hello and welcome to my portfolio.
+            <br /><br />
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.. 
+          </div>
+        </div>
+  
+        <div class="triangle-animation" >
+          <div class="down-button">
+            <span class="green-circle"></span>
+            <span class="green-triangle"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="mainPadding" id="contact-me">
+      <div class="container contact-me" style="margin-bottom: 0;">
+        <nav>
+          <li class="logo">
+            <a href="#home">
+              <img src="./images/Logo.svg" alt="logo" />
+            </a>
+          </li>
+          <ul class="desktop-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#contact-me">Contact me</a></li>
+          </ul>
+          <ul class="mobile-menu">
+            <div class="hamburger-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <nav class="side-menu">
+              <li>
+                <span>&times;</span>
+              </li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#about-me">About me</a></li>
+              <li><a href="#contact-me">Contact me</a></li>
+            </nav>
+          </ul>
+        </nav>
+  
+        <h1 class="section-title">Contact Me</h1>
+        <div class="contactMe-form">
+          <div class="contactMe-inputs">
+            <div class="contactMe-row">
+              <input type="text" placeholder="Name" id="name">
+              <input type="email" placeholder="Email" id="email">
+            </div>
+            <div class="contactMe-row">
+              <textarea rows="5" cols="50" placeholder="Your Message..." ></textarea>
+            </div>
+          </div>
+          <button id="send">Send</button>
+        </div>
+        
+  
+        <div class="triangle-animation">
+          <div class="down-button">
+            <span class="green-circle"></span>
+            <span class="green-triangle-up"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="./js/script.js"></script>
+  </body>
+</html>
