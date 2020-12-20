@@ -43,7 +43,6 @@ downControl.forEach((btn, index) => {
       hamburgerIcon[index - 1].className = "hamburger-menu";
     }
   });
-  
 });
 
 upControl.forEach((btn, index) => {

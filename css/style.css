@@ -1328,6 +1328,14 @@ li.hamburger-menu span {
   .js {
     top: 240px;
   }
+
+  .projects {
+    height: 2500px;
+  }
+
+  .about-me .aboutMe-content .aboutMe-text {
+    font-size: 16px;
+  }
 }
 
 @media screen and (min-width: 1700px) {
