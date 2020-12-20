@@ -40,13 +40,19 @@
               <img src="./images/Logo.svg" alt="logo" />
             </a>
           </li>
-          <ul class="desktop-menu">
+          <li class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </li>
+          <nav class="desktop-menu">
             <li><a href="#home">Home</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#about-me">About me</a></li>
             <li><a href="#contact-me">Contact me</a></li>
-          </ul>
-          <ul class="mobile-menu">
+          </nav>
+          <!-- <ul class="mobile-menu">
             <div class="hamburger-menu">
               <span></span>
               <span></span>
@@ -61,7 +67,7 @@
               <li><a href="#about-me">About me</a></li>
               <li><a href="#contact-me">Contact me</a></li>
             </nav>
-          </ul>
+          </ul> -->
         </nav>
   
         <div class="hero-section">
@@ -77,36 +83,39 @@
           <div class="tech-container">
             <div class="techs" id="techs">
               <a href="https://www.mongodb.com/" class="mongodb" target="_blank">
-                <img src="./images/mongodb.png" alt="mongodb logo"/>
+                <img src="./images/mongodb.png" alt="mongodb-logo">
               </a>
               <a href="https://reactjs.org/" class="react" target="_blank">
-                <img src="./images/react.png" alt="react logo"/>
+                <img src="./images/react.png" alt="react-logo">
               </a>
               <a href="https://nodejs.org/en/" class="nodejs" target="_blank">
-                <img src="./images/nodejs.png" alt="nodejs logo"/>
+                <img src="./images/nodejs.png" alt="nodejs-logo">
               </a>
               <a href="https://sass-lang.com/" class="sass" target="_blank">
-                <img src="./images/sass.png" alt="sass logo"/>
+                <img src="./images/sass.png" alt="sass-logo">
               </a>
               <a href="https://www.w3schools.com/css/" class="css" target="_blank">
-                <img src="./images/css.png" alt="css logo"/>
+                <img src="./images/css.png" alt="css-logo">
               </a>
               <a href="https://www.w3schools.com/html/" class="html" target="_blank">
-                <img src="./images/html.png" alt="html logo"/>
+                <img src="./images/html.png" alt="html-logo">
               </a>
               <a href="https://www.w3schools.com/js/DEFAULT.asp" class="js" target="_blank">
-                <img src="./images/js.png" alt="js logo"/>
+                <img src="./images/js.png" alt="js-logo">
               </a>
             </div>
           </div>
         </div>
   
-        <div class="triangle-animation">
-          <div class="down-button">
-            <span class="green-circle"></span>
-            <span class="green-triangle"></span>
+        <div class="controls">
+          <div class="triangle">
+            <div class="down-control">
+              <span class="green-circle"></span>
+              <span class="green-triangle-down"></span>
+            </div>
           </div>
         </div>
+
       </div>
     </div>
 
@@ -118,19 +127,25 @@
               <img src="./images/Logo.svg" alt="logo" />
             </a>
           </li>
-          <ul class="desktop-menu">
+          <li class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </li>
+          <nav class="desktop-menu" id="projectsDM">
             <li><a href="#home">Home</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#about-me">About me</a></li>
             <li><a href="#contact-me">Contact me</a></li>
-          </ul>
-          <ul class="mobile-menu">
+          </nav>
+          <!-- <ul class="mobile-menu">
             <div class="hamburger-menu">
               <span></span>
               <span></span>
               <span></span>
             </div>
-            <nav class="side-menu" style="height: 1900px">
+            <nav class="side-menu">
               <li>
                 <span>&times;</span>
               </li>
@@ -139,7 +154,7 @@
               <li><a href="#about-me">About me</a></li>
               <li><a href="#contact-me">Contact me</a></li>
             </nav>
-          </ul>
+          </ul> -->
         </nav>
   
         <h1 class="section-title">Projects</h1>
@@ -207,10 +222,16 @@
             </div>
           </div>
         </div>
-        <div class="triangle-animation" >
-          <div class="down-button">
-            <span class="green-circle"></span>
-            <span class="green-triangle"></span>
+        <div class="upDownControls">
+          <div class="triangle">
+            <div class="down-control">
+              <span class="green-circle"></span>
+              <span class="green-triangle-down"></span>
+            </div>
+            <div class="up-control">
+              <span class="green-circle"></span>
+              <span class="green-triangle-up"></span>
+            </div>
           </div>
         </div>
       </div>
@@ -224,13 +245,19 @@
               <img src="./images/Logo.svg" alt="logo" />
             </a>
           </li>
-          <ul class="desktop-menu">
+          <li class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </li>
+          <nav class="desktop-menu">
             <li><a href="#home">Home</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#about-me">About me</a></li>
             <li><a href="#contact-me">Contact me</a></li>
-          </ul>
-          <ul class="mobile-menu">
+          </nav>
+          <!-- <ul class="mobile-menu">
             <div class="hamburger-menu">
               <span></span>
               <span></span>
@@ -245,7 +272,7 @@
               <li><a href="#about-me">About me</a></li>
               <li><a href="#contact-me">Contact me</a></li>
             </nav>
-          </ul>
+          </ul> -->
         </nav>
   
         <h1 class="section-title">About Me</h1>
@@ -253,7 +280,7 @@
         <div class="aboutMe-content">
           <div class="aboutMe-links">
             <a href="https://github.com/stevan-zecevic" target="_blank">
-              <img style="width: 115px" src="./images/github-logo-white.png" alt="github-logo" />
+              <img src="./images/github-logo-white.png" alt="github-logo" />
             </a>
             <a href="https://www.facebook.com/stevan.zecevic.3/" target="_blank">
               <img src="./images/facebook-logo.png" alt="facebook-logo" />
@@ -265,14 +292,27 @@
           <div class="aboutMe-text">
             Hello and welcome to my portfolio.
             <br /><br />
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.. 
+            Lorem Ipsum is simply dummy text of the printing 
+            and typesetting industry. Lorem Ipsum has been the 
+            industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took a galley of type and 
+            scrambled it to make a type specimen book. It has survived
+             not only five centuries, but also the leap into electronic
+              typesetting, remaining essentially unchanged. 
+              It was popularised in the 1960s with the release 
           </div>
         </div>
   
-        <div class="triangle-animation" >
-          <div class="down-button">
-            <span class="green-circle"></span>
-            <span class="green-triangle"></span>
+        <div class="upDownControls">
+          <div class="triangle">
+            <div class="down-control">
+              <span class="green-circle"></span>
+              <span class="green-triangle-down"></span>
+            </div>
+            <div class="up-control">
+              <span class="green-circle"></span>
+              <span class="green-triangle-up"></span>
+            </div>
           </div>
         </div>
       </div>
@@ -286,13 +326,19 @@
               <img src="./images/Logo.svg" alt="logo" />
             </a>
           </li>
-          <ul class="desktop-menu">
+          <li class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </li>
+          <nav class="desktop-menu">
             <li><a href="#home">Home</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#about-me">About me</a></li>
             <li><a href="#contact-me">Contact me</a></li>
-          </ul>
-          <ul class="mobile-menu">
+          </nav>
+          <!-- <ul class="mobile-menu">
             <div class="hamburger-menu">
               <span></span>
               <span></span>
@@ -307,7 +353,7 @@
               <li><a href="#about-me">About me</a></li>
               <li><a href="#contact-me">Contact me</a></li>
             </nav>
-          </ul>
+          </ul> -->
         </nav>
   
         <h1 class="section-title">Contact Me</h1>
@@ -318,19 +364,22 @@
               <input type="email" placeholder="Email" id="email">
             </div>
             <div class="contactMe-row">
-              <textarea rows="5" cols="50" placeholder="Your Message..." ></textarea>
+              <textarea rows="3" cols=30" placeholder="Your Message..." ></textarea>
             </div>
           </div>
           <button id="send">Send</button>
+          <span>Please fill in all fields before sending email!</span>
         </div>
-        
   
-        <div class="triangle-animation">
-          <div class="down-button">
-            <span class="green-circle"></span>
-            <span class="green-triangle-up"></span>
+        <div class="upControl">
+          <div class="triangle">
+            <div class="up-control">
+              <span class="green-circle"></span>
+              <span class="green-triangle-up"></span>
+            </div>
           </div>
         </div>
+
       </div>
     </div>
     
